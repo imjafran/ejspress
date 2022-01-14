@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link defer rel="stylesheet" href="https://unpkg.com/@tailwindcss/typography@0.4.x/dist/typography.min.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Express Boilerplate</title>
+</head>
+
+<body>
+    <article class="prose lg:prose-xl mx-auto p-6">
+        <h2 class="text-center">Welcome to Express!</h1>
+        <div class="text-center">
+            <lottie-player src="https://assets4.lottiefiles.com/private_files/lf30_P2wyYh.json" background="transparent"
+                speed="1" style="width: 160px; height: auto; margin: 0 auto" loop autoplay></lottie-player>
+            
+                <h6>Your <strong>Express app</strong> is ready to go!</h6>
+        </div>
+        <p>
+            <h5 class="mb-1 font-medium">Routes</h5> 
+            <div class="grid grid-cols-2 gap-2">
+                <div class="bg-slate-700 text-white flex items-center gap-3 rounded-md py-1 px-3">
+                    ./app/routes/web.js
+                </div>
+                <div class="bg-slate-700 text-white flex items-center gap-3 rounded-md py-1 px-3">
+                    ./app/routes/api.js
+                </div>
+            </div>  
+        </p> 
+         <p>
+             <h5 class="mb-1 font-medium">Models</h5>
+             <div class="bg-slate-700 text-white flex items-center gap-3 rounded-md py-1 px-3">
+                 ./app/model/
+             </div>
+         </p>
+        <p>
+            <h5 class="mb-1 font-medium">Views</h5> 
+            <div class="bg-slate-700 text-white flex items-center gap-3 rounded-md py-1 px-3">
+                ./views/
+            </div> 
+        </p>
+        <p>
+            <h5 class="mb-1 font-medium">Controllers</h5>
+            <div class="bg-slate-700 text-white flex items-center gap-3 rounded-md py-1 px-3">
+                ./app/controllers/
+            </div>
+        </p>
+       
+    </article>
+
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>  
+</body>
+
+</html>
